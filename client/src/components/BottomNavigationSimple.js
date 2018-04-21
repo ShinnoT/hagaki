@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { Component } from "react";
 import FontIcon from "material-ui/FontIcon";
 import {
@@ -32,21 +33,30 @@ class BottomNavigationSimple extends Component {
     return (
       <Paper zDepth={1} style={styles}>
         <BottomNavigation selectedIndex={this.state.selectedIndex}>
-          <BottomNavigationItem
-            label="Letters"
-            icon={emailIcon}
-            onClick={() => this.select(0)}
-          />
-          <BottomNavigationItem
-            label="Memories"
-            icon={favoritesIcon}
-            onClick={() => this.select(1)}
-          />
-          <BottomNavigationItem
-            label="Profile"
-            icon={profileIcon}
-            onClick={() => this.select(2)}
-          />
+          <Link to="/" className="footer-link">
+            <BottomNavigationItem
+              label="Letters"
+              icon={emailIcon}
+              className="footer-item"
+              onClick={() => this.select(0)}
+            />
+          </Link>
+          <Link to="/messages" className="footer-link">
+            <BottomNavigationItem
+              label="Memories"
+              icon={favoritesIcon}
+              className="footer-item"
+              onClick={() => this.select(1)}
+            />
+          </Link>
+          <Link to="/" className="footer-link">
+            <BottomNavigationItem
+              label="Profile"
+              icon={profileIcon}
+              className="footer-item"
+              onClick={() => this.select(2)}
+            />
+          </Link>
         </BottomNavigation>
       </Paper>
     );
