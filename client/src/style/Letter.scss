@@ -3,15 +3,15 @@
 .Letter {
   height: 100%;
   width: 100%;
-  padding-top: 40px;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   flex-direction: column;
+  //   padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   .hagaki {
     width: 85%;
     height: 80%;
-    margin: 0 auto;
+    // margin: 0 auto;
     // margin-top: 10px;
     background: white;
     box-shadow: 0 0 10px gray;
