@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day");
+
+.Letter {
+  height: 100%;
+  width: 100%;
+  padding-top: 40px;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   flex-direction: column;
+  .hagaki {
+    width: 85%;
+    height: 80%;
+    margin: 0 auto;
+    // margin-top: 10px;
+    background: white;
+    box-shadow: 0 0 10px gray;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    textarea {
+      font-family: "Dawning of a New Day", cursive;
+      font-size: 20px;
+      border: none;
+      width: 90%;
+      height: 80%;
+      outline: none;
+      resize: none;
+    }
+    .send-button {
+      width: 90%;
+      height: 30px;
+      background: transparent;
+      border: solid 1px rgb(0, 191, 255);
+      border-radius: 2px;
+    }
+  }
+  //   .space {
+  //     height: 50px;
+  //   }
+}
