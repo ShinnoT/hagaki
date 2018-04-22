@@ -9,6 +9,8 @@ import BottomNavigationSimple from "./components/BottomNavigationSimple";
 import Letter from "./components/Letter";
 import Messages from "./components/Messages";
 import Tree from "./components/Tree";
+import Memory from "./components/Memory";
+import Detail from "./components/Detail";
 
 class App extends Component {
   render() {
@@ -20,6 +22,8 @@ class App extends Component {
             <Route exact path="/" component={Letter} />
             <Route exact path="/messages" component={Messages} />
             <Route exact path="/tree" component={Tree} />
+            <Route exact path="/tree/memory" component={Memory} />
+            <Route exact path="/tree/memory/detail" component={Detail} />
           </div>
           <BottomNavigationSimple />
         </MuiThemeProvider>

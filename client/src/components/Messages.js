@@ -4,7 +4,6 @@ class Messages extends Component {
   render() {
     return (
       <div className="Messages">
-        <p>Messages here</p>
       </div>
     );
   }

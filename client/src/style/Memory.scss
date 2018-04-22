@@ -1,0 +1,42 @@
+  .title p {
+  font-size: 50px;
+  }
+  .Memory-pictures {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    // padding:10px;
+    // background-size: 100px;
+    width: 100%;
+    height: 60vw   ;
+    padding: 0;
+    margin-top: 20px;
+    img {
+      width:23%;
+      height: auto;
+      box-shadow: 0px 2px 3px grey;
+    }
+    .big-pic {
+      width:50%;
+      height: auto;
+    }
+  }
+
+  .Email-list {
+    margin-top: 10px;
+    background-color: white;
+    display: grid;
+    grid-gap: 5px 5px;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height:50%;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    img {
+      width:80%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
