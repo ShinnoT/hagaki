@@ -35,7 +35,7 @@ class BottomNavigationSimple extends Component {
         <BottomNavigation selectedIndex={this.state.selectedIndex}>
           <Link to="/" className="footer-link">
             <BottomNavigationItem
-              label="Letters"
+              label="Letter"
               icon={emailIcon}
               className="footer-item"
               onClick={() => this.select(0)}
