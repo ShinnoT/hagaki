@@ -41,7 +41,7 @@ class BottomNavigationSimple extends Component {
               onClick={() => this.select(0)}
             />
           </Link>
-          <Link to="/messages" className="footer-link">
+          <Link to="/tree" className="footer-link">
             <BottomNavigationItem
               label="Memories"
               icon={favoritesIcon}
