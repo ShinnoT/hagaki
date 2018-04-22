@@ -1,0 +1,41 @@
+.Messages {
+  height: 148vh;
+  width: 100%;
+  //   padding-bottom: 56px;
+  background-color: white;
+  h2 {
+    text-align: center;
+    color: #3f3f3f;
+  }
+  .msg {
+    width: calc(100% - 30px);
+    height: 150px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    .quote {
+      font-size: 20px;
+      padding: 20px;
+      padding-top: 80px;
+    }
+  }
+  .mine-read {
+    // background-color: rgba(72, 255, 0, 0.1);
+    border: none;
+    border-right: 30px solid rgba(72, 255, 0, 0.1);
+    text-align: left;
+    color: rgba(50, 0, 92, 0.5);
+  }
+  .notmine-read {
+    // background-color: rgba(152, 152, 255, 0.1);
+    border: none;
+    border-left: 30px solid rgba(152, 152, 255, 0.1);
+    text-align: right;
+    color: rgba(50, 0, 92, 0.5);
+  }
+  .mine-unread {
+    // background-color: rgba(255, 24, 16, 0.1);
+    border: none;
+    border-right: 30px solid rgba(255, 24, 16, 0.4);
+    text-align: left;
+    color: rgba(50, 0, 92, 1);
+  }
+}
